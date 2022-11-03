@@ -301,7 +301,7 @@ const Builder = ({ form, id }: { form: any; id: any }) => {
 					<Tabs isFitted m={0} p={0}>
 						<TabList
 							mb="1em"
-							top={55}
+							top={61}
 							//mt={60}
 							zIndex={"sticky"}
 							position={"sticky"}
