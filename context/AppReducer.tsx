@@ -16,7 +16,7 @@ const AppReducer = (state: any, action: any) => {
 				defaultForm: {
 					//...state.defaultForm,
 					...action.payload,
-					shareableUrl: `http://localhost:3000/form/${action.payload._id} `,
+					shareableUrl: `${window.location.origin}/form/${action.payload._id} `,
 				},
 			};
 		case "SET_AUTOSAVE":
