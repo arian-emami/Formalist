@@ -80,7 +80,7 @@ const Home: NextPage = () => {
 											Start Now
 										</Button>
 									</Link>
-									<Link href={"https://github.com/arian-emami/Formalist"}>
+									<a href={"https://github.com/arian-emami/Formalist"}>
 										{/* todo: add github link */}
 										<Button
 											leftIcon={<FaGithub />}
@@ -89,7 +89,7 @@ const Home: NextPage = () => {
 										>
 											Github
 										</Button>
-									</Link>
+									</a>
 								</HStack>
 							</Box>
 							<Box display={"block"}>
