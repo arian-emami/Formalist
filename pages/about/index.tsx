@@ -59,6 +59,7 @@ const about = () => {
 							Hi, I'm Arian, the creator of Formalist. I'm grateful you took the
 							time to check out my project. Do not hesitate opening issues on{" "}
 							<a href="https://github.com/arian-emami">
+								{/* link to github */}
 								<Button leftIcon={<FaGithub />} variant={"link"}>
 									My Github
 								</Button>

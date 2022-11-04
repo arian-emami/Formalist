@@ -81,6 +81,7 @@ const Home: NextPage = () => {
 										</Button>
 									</Link>
 									<Link href={"https://github.com/arian-emami/Formalist"}>
+										{/* todo: add github link */}
 										<Button
 											leftIcon={<FaGithub />}
 											size={"lg"}
