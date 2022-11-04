@@ -80,9 +80,15 @@ const Home: NextPage = () => {
 											Start Now
 										</Button>
 									</Link>
-									<Button leftIcon={<FaGithub />} size={"lg"} variant={"ghost"}>
-										Github
-									</Button>
+									<Link href={"https://github.com/arian-emami/Formalist"}>
+										<Button
+											leftIcon={<FaGithub />}
+											size={"lg"}
+											variant={"ghost"}
+										>
+											Github
+										</Button>
+									</Link>
 								</HStack>
 							</Box>
 							<Box display={"block"}>

@@ -38,9 +38,11 @@ const about = () => {
 				<Tag colorScheme={"gray"} size={"sm"}>
 					Version 1.0.0
 				</Tag>
-				<Button leftIcon={<FaGithub />} variant={"ghost"} mt={2}>
-					Go to source code
-				</Button>
+				<a href="https://github.com/arian-emami/Formalist">
+					<Button leftIcon={<FaGithub />} variant={"ghost"} mt={2}>
+						Go to source code
+					</Button>
+				</a>
 			</Flex>
 			<Container>
 				<Flex
@@ -56,9 +58,11 @@ const about = () => {
 						<Text>
 							Hi, I'm Arian, the creator of Formalist. I'm grateful you took the
 							time to check out my project. Do not hesitate opening issues on{" "}
-							<Button leftIcon={<FaGithub />} variant={"link"}>
-								My Github
-							</Button>{" "}
+							<a href="https://github.com/arian-emami">
+								<Button leftIcon={<FaGithub />} variant={"link"}>
+									My Github
+								</Button>
+							</a>{" "}
 							or sending me your advice through my email:
 							<a href="mailto: emamiarian8@gmail.com">
 								<Button leftIcon={<MdMail />} variant={"link"}>
